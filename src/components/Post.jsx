@@ -32,7 +32,7 @@ const Post = () => {
         <CardMedia
           component="img"
           height="20%"
-          image="/src/assets/pexels-kadiravsarr-24871545.jpg"
+          image="./src/assets/pexels-kadiravsarr-24871545.jpg"
           alt="model"
         />
         <CardContent>
