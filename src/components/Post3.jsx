@@ -11,6 +11,8 @@ import {
   IconButton,
   Typography,
 } from "@mui/material";
+import ProfilePic from "../assets/tm2.jpg"
+import PostPic from "../assets/pexels-eric-moura-859101902-27453365.jpg"
 
 const Post = () => {
   return (
@@ -18,7 +20,7 @@ const Post = () => {
         <CardHeader
           avatar={
             <Avatar sx={{ bgcolor: "red" }} aria-label="recipe">
-              CP
+              <img src={ProfilePic} alt="profile pic" width={40}/>
             </Avatar>
           }
           action={
@@ -26,13 +28,13 @@ const Post = () => {
               <MoreVert />
             </IconButton>
           }
-          title="Chorizo Paella"
+          title="Praise Joseph"
           subheader="September 14, 2016"
         />
         <CardMedia
           component="img"
           height="20%"
-          image="https://images.pexels.com/photos/3753118/pexels-photo-3753118.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          image={PostPic}
           alt="model"
         />
         <CardContent>

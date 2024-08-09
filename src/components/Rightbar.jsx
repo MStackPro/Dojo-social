@@ -12,6 +12,9 @@ import {
   Typography,
 } from "@mui/material";
 import React from "react";
+import LatestPic1 from "../assets/pexels-bobbydimas-27490120.jpg"
+import LatestPic2 from "../assets/pexels-kadiravsarr-24871545.jpg"
+import LatestPic3 from "/src/assets/pexels-eric-moura-859101902-27453365.jpg"
 
 const avatar = [
   { id: 1, alt: "Remy Sharp", image: "/src/assets/logo.jpg" },
@@ -44,16 +47,16 @@ const Rightbar = () => {
         <ImageList cols={3} rowHeight={100} gap={5}>
           <ImageListItem>
             <img
-              src="/src/assets/pexels-wildlittlethingsphoto-745045.jpg"
+              src={LatestPic1}
               alt="post"
             />
           </ImageListItem>
           <ImageListItem>
-            <img src="/src/assets/pexels-bobbydimas-27490120.jpg" alt="post" />
+            <img src={LatestPic2} alt="post" />
           </ImageListItem>
           <ImageListItem>
             <img
-              src="/src/assets/pexels-eric-moura-859101902-27453365.jpg"
+              src={LatestPic3}
               alt="post"
             />
           </ImageListItem>

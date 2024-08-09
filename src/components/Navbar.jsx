@@ -12,6 +12,7 @@ import {
   Typography,
 } from "@mui/material";
 import { useState } from "react";
+import UserIMage from "../assets/logo.jpg"
 
 const StyledToolbar = styled(Toolbar)({
   display: "flex",
@@ -66,7 +67,7 @@ const Navbar = () => {
         </Icons>
 
         <UserBox onClick={(e) => setOpen(true)}>
-          <Avatar src="/src/assets/logo.jpg" sx={{ width: 30, height: 30 }} />
+          <Avatar src={UserIMage} sx={{ width: 30, height: 30 }} />
           <Typography variant="span">Nasz</Typography>
         </UserBox>
       </StyledToolbar>
